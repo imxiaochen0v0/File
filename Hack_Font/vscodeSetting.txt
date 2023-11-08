@@ -1,0 +1,84 @@
+{
+  "explorer.confirmDelete": false,
+  "explorer.compactFolders": false,
+  "editor.formatOnSave": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.smoothScrolling": true,
+  "terminal.integrated.smoothScrolling": true,
+  "editor.formatOnType": true,
+  "editor.wordWrap": "on",
+  "editor.accessibilitySupport": "off",
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "files.autoGuessEncoding": true,
+  "workbench.list.smoothScrolling": true,
+  "editor.cursorBlinking": "smooth",
+  "workbench.editorAssociations": {
+    "*.class": "default"
+  },
+  "redhat.telemetry.enabled": true,
+  "editor.formatOnPaste": true,
+  "cSpell.userWords": [
+    "imxiaochen"
+  ],
+  "editor.unicodeHighlight.includeStrings": false,
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "Codegeex.Privacy": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontSize": 18,
+  "workbench.colorTheme": "Field Lights",
+  "editor.fontFamily": "Hack,'苹方-简', monospace",
+  "editor.fontLigatures": true,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "comment",
+          "comment.block",
+          "comment.block.documentation",
+          "comment.line",
+          "comment.line.double-slash",
+          "punctuation.definition.comment",
+          // "storage", //静态关键字
+          // "keyword", //关键字
+          "keyword.control.import",
+          "keyword.control.default",
+          // "keyword.control.from",
+          "keyword.operator.new",
+          "keyword.control.export",
+          "keyword.control.flow",
+        ],
+        "settings": {
+          "fontStyle": "italic", //斜体
+          /* "foreground": "#add8e6", //设置颜色 
+          "fontStyle": "bold", //加粗
+          "fontStyle": "italic underline", //斜体下划线 
+          "fontStyle": "italic bold underline", //斜体粗体下划线 */
+        }
+      },
+    ]
+  },
+  "Codegeex.Comment.LanguagePreference": "中文",
+  "create-uniapp-view.directory": true,
+  "files.associations": {
+    "manifest.json": "jsonc",
+    "pages.json": "jsonc"
+  },
+  "create-uniapp-view.name": "与文件夹同名",
+  "create-uniapp-view.typescript": false,
+  "create-uniapp-view.scoped": false,
+  "create-uniapp-view.style": "scss",
+  /** 编辑器背景 */
+  "background.useFront": false,
+  "background.fullscreen": {
+    "images": [
+      "file:///C:Users/29496/Pictures/Camera Roll/img.jpg",
+    ],
+    "opacity": 0.85,
+    "size": "cover",
+    "position": "center",
+    "interval": 300
+  },
+}
