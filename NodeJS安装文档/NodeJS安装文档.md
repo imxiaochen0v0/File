@@ -1,8 +1,8 @@
 # NodeJS安装
 
-## 1. 双击资料中提供的安装包 
+## 1. NodeJS官网
 
-![image-20221008213131316](assets/image-20221008213131316.png)  
+官网：[Node.js (nodejs.org)](https://nodejs.org/en)  
 
  ![image-20220818155659933](assets/image-20220818155659933.png) 
 
@@ -36,11 +36,11 @@ NodeJS 安装完毕后，会自动配置好环境变量，我们验证一下是�
 
 
 
+
+
 ## 4. 配置npm的全局安装路径
 
- <img src="assets/image-20220818161218016.png" alt="image-20220818161218016" style="zoom:67%;" />
-
-
+<img src="assets/image-20220818161218016.png" alt="image-20220818161218016" style="zoom:67%;" />
 
 使用管理员身份运行命令行，在命令行中，执行如下指令：
 
@@ -61,7 +61,19 @@ npm config set prefix "E:\develop\NodeJS"
 使用管理员身份运行命令行，在命令行中，执行如下指令：
 
 ```
-npm config set registry https://registry.npm.taobao.org
+npm config set registry http://registry.npmmirror.com
+```
+
+检测是否安装成功：
+
+```
+ npm config get registry
+```
+
+恢复：
+
+```
+ npm config set registry https://registry.npmjs.org
 ```
 
 
@@ -81,18 +93,3 @@ npm install -g @vue/cli
 这个过程中，会联网下载，可能会耗时几分钟，耐心等待。
 
 ![image-20220818161134576](assets/image-20220818161134576.png) 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
